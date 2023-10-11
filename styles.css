@@ -1,13 +1,30 @@
 body {
-  height: 100vh;
+  width: 98vw;
+  height: 98vh;
   background-color: #0a1828;
   color: #bfa181;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
+  font-family: "JetBrains Mono", monospace;
 }
 
-.content .text {
+header {
+  width: 98vw;
+  padding: 1rem;
+  display: flex;
+}
+
+.github {
+  margin-left: auto;
+}
+.github img {
+  height: 2.5rem;
+  width: auto;
+}
+
+.content {
   font-size: 2rem;
+  text-align: center;
 }

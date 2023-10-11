@@ -14,14 +14,18 @@ header {
   width: 98vw;
   padding: 1rem;
   display: flex;
+  font-size: 1.3rem;
 }
 
-.github {
+.links {
   margin-left: auto;
+  display: flex;
+  gap: 1rem;
+  align-items: center;
 }
-.github img {
-  height: 2.5rem;
-  width: auto;
+
+.links a {
+  color: #bfa181;
 }
 
 .content {
